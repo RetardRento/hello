@@ -106,9 +106,9 @@ export class Cat extends Component {
           <React.Fragment>
             <p className="result">Here is my face</p>
             <img
-              src="src\assets\me.jpg"
+              src="https://i.ibb.co/KLGqJdR/KK-Rento.png"
               alt="My Face"
-              style={{ width: "160px", height: "200px" }}
+              style={{ width: "200px", height: "200px" }}
             />
             <br></br>
           </React.Fragment>
