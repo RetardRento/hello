@@ -60,7 +60,7 @@ export class Page extends Component {
             <br />
             <br />
             <br /> run a command - example {"cat {command from ls list}"} try
-            cat about!
+            cat about! or cat projects! or type ls to see the list of commands
             {/* {this.information.name}. */}
           </p>
 

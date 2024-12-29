@@ -101,7 +101,10 @@ export class Cat extends Component {
             })}
           </React.Fragment>
         );
-      } else if (lower === "me" && this.state.value.split(" ")[2] === "face") {
+      } else if (
+        (lower === "me" && this.state.value.split(" ")[2] === "face") ||
+        lower === "who am i"
+      ) {
         return (
           <React.Fragment>
             <p className="result">Here is my face</p>
